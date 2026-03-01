@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.8246753246753247,
+  "precision": 0.8220640569395018,
+  "recall": 0.9829787234042553,
+  "f1": 0.8953488372093024,
+  "execution_time_sec": 0.012594461441040039,
+  "qiga_runtime_sec": 2.3627376556396484,
+  "selected_features": 420,
+  "candidate_features": 4000,
+  "best_valid_acc": 0.8273615635179153
+}

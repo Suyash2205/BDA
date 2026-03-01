@@ -1,0 +1,23 @@
+{
+  "feature_method": {
+    "type": "TFIDF_char_ngrams",
+    "ngram_range": [
+      2,
+      6
+    ],
+    "max_features": 20000
+  },
+  "candidate_selection": {
+    "method": "topK_variance",
+    "K": 4000
+  },
+  "qiga_params": {
+    "pop_size": 22,
+    "iters": 30,
+    "lr": 0.3,
+    "penalty_weight": 0.04,
+    "min_feats": 100,
+    "max_feats": 800,
+    "seed": 7
+  }
+}
